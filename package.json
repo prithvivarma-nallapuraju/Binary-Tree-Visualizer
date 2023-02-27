@@ -1,4 +1,5 @@
 {
+  "homepage":"https://prithvivarma-nallapuraju.github.io/Binary-Tree-Visualizer/",
   "name": "example-binary-tree-visualizer",
   "version": "1.0.0",
   "description": "Example for using binary-tree-visualizer npm package",
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/tirthamouli/example-binary-tree-visualizer/issues"
   },
-  "homepage": "https://github.com/tirthamouli/example-binary-tree-visualizer#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-proposal-class-properties": "^7.14.5",

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Binary tree visualizer</title>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main,
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    form{
+      text-align: center;
+    }
+
+    canvas{
+      align-items: center;
+    }
+
+    .submit{
+      padding: 20px;
+    }
+
+    @media screen and (min-width: 1080px) {
+      canvas{
+        top: 50%;
+      left: 50%;
+      margin-left: 300px;
+      }
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+  />
+<script defer src="bundle.js"></script></head>
+
+<body>
+  <!-- Main -->
+  <main>
+    <h1> Hi, <br> Welcome to the Binary Tree Visualiser</h1>
+    <br><br>
+    <form>
+      <label for="array">Enter the number array seperated By Space</label> <br>
+      <textarea name="array" id="array" cols="30" rows="10"></textarea>
+      <br><br>
+      <input type="submit" value="Submit" style="padding: 10px 25px; border-radius: 10px;">
+    </form>
+    <div class="wrapper">
+      <canvas></canvas>
+    </div>
+  </main>
+
+
+  <script src="../src/index.js"></script>
+</body>
+
+</html>
